@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Мобильное меню</title>
+		<link href="../plugin/nikolaus_mobile_menu.min.css" rel="stylesheet">
+		<script src="../jquery/jquery-3.3.1.min.js"></script>
+		<script src="../plugin/nikolaus_mobile_menu.min.js"></script>
+	</head>
+	<body>
+		<div class="menu_container">
+			<a href="#" class="mobile_menu">Показать меню</a>
+		</div>
+		<div class="mobile_menu_container">
+			<div class="mobile_menu_content">
+				<ul>
+					<li>
+						<a href="#" class="parent">Компьютерная техника</a>
+						<ul>
+							<li><a href="#" class="back"></a></li>
+							<li><a href="#">Компьютерная техника</a></li>
+							<li>
+								<a href="#" class="parent">Ноутбуки и аксессуары</a>
+								<ul>
+									<li><a href="#" class="back"></a></li>
+									<li><a href="#">Ноутбуки и аксессуары</a></li>
+									<li><a href="#">Ноутбуки</a></li>
+									<li><a href="#">Аксессуары</a></li>
+									<li>
+										<a href="#" class="parent">Компьютеры и комплектующие</a>
+										<ul>
+											<li><a href="#" class="back"></a></li>
+											<li><a href="#">Компьютеры и комплектующие</a></li>
+											<li><a href="#">Компьютеры</a></li>
+											<li><a href="#">Моноблоки</a></li>
+											<li><a href="#">Материнские платы</a></li>
+											<li><a href="#">Процессоры</a></li>
+											<li><a href="#">Видеокарты</a></li>
+											<li><a href="#">Жесткие диски HDD</a></li>
+											<li><a href="#">Корпуса</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Перифирия</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Техника для печати</a></li>
+							<li><a href="#">Микрофоны</a></li>
+							<li><a href="#">Вебкамеры</a></li>
+							<li><a href="#">Наушники</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Строительство и ремонт</a></li>
+					<li>
+						<a href="#" class="parent">Телефоны</a>
+						<ul>
+							<li><a href="#" class="back"></a></li>
+							<li><a href="#">Телефоны</a></li>
+							<li><a href="#">Nokia</a></li>
+							<li><a href="#">Xiaomi</a></li>
+							<li><a href="#">Samsung</a></li>
+							<li><a href="#">iPhone</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="parent">Одежда</a>
+						<ul>
+							<li><a href="#" class="back"></a></li>
+							<li><a href="#">Одежда</a></li>
+							<li><a href="#">Брюки</a></li>
+							<li>
+								<a href="#" class="parent">Куртки</a>
+								<ul>
+									<li><a href="#" class="back"></a></li>
+									<li><a href="#">Куртки</a></li>
+									<li><a href="#">Зимние куртки</a></li>
+									<li><a href="#">Летние ветровки</a></li>
+									<li><a href="#">Осенняя коллекция</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Штанишки</a></li>
+							<li><a href="#">Майки</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Сантехника</a></li>
+					<li><a href="#">Бытовая техника</a></li>
+					<li><a href="#">Сад и огород</a></li>
+					<li><a href="#">Лампы и светильники</a></li>
+					<li><a href="#">Телевизоры</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="mobile_menu_overlay"></div>
+
+		<style type="text/css">
+			body, html{
+				margin: 0;
+				padding: 0;
+				font-size: 16px;
+				line-height: 20px;
+				font-family: "Arial";
+				height: 100%;
+				min-height: 100%;
+			}
+			.menu_container{
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+				width: 100%;
+			}
+			.mobile_menu{
+				font-size: 20px;
+    			display: inline-block;
+    			vertical-align: top;
+    			line-height: 26px;
+    			padding: 12px 25px;
+    			color: #ffffff;
+    			background: #4dadf7;
+    			border-radius: 2px;
+    			border: none;
+    			width: auto;
+    			margin: 0;
+    			text-decoration: none;
+    			-webkit-transition: all 400ms;
+    			-moz-transition: all 400ms;
+    			transition: all 400ms;
+			}
+			.mobile_menu:hover{
+				background: #228ae6;
+    			cursor: pointer;
+			}
+		</style>
+	</body>
+</html>
